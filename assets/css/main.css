@@ -1,0 +1,280 @@
+*/ {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    display: flex;
+    margin: 0 auto;
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+
+.left {
+    width: 65%;
+    box-sizing: border-box;
+}
+
+.right {
+    background-color: #1d61a8;
+    box-sizing: border-box;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;    
+    /*height: 91.2vh;*/
+    height: auto;
+    justify-content: center; 
+    width: 35%;
+}
+
+.right p {
+    font-size: 1.56em;
+    margin: 0 12%;
+    text-align: center;
+}
+
+.right label {
+    font-size: 0.78em;
+    margin: 5% 12% 12% 12%;
+    text-align: center;
+}
+
+.form {
+    border: 1.8px solid white;
+    border-radius: 10px;
+    padding: 15px 0px;
+    margin: 0 8%;
+    text-align: left;
+}
+
+#chk_container {
+    margin: 0;
+    position: relative;
+    display: inline-block;
+    margin-top: 4px;
+}
+
+#btn_condiciones {
+    background-color: transparent;
+    border: none;
+    color: transparent;
+    position: absolute; 
+    margin-left: 22px; 
+    width: 62%; 
+    height: 35px;
+}
+
+#cel_number {
+    font-size: 0.78em;
+}
+
+#cel_number > #txt_num_cel {
+    height: 20px;
+    margin-left: 12%;
+    margin-top: 4px;
+    margin-bottom: 10px;
+    width: 80%;
+}
+
+#chk_confirm_text {
+    font-size: 0.94em;  
+    text-align: left;  
+    margin-left: 0px;
+}
+
+#autorizations {
+    display: none;
+}
+
+.botones {
+    margin-left: 11%;
+    margin-top: 4%;
+    text-align: center;
+}
+
+.btns {
+    border-radius: 7px;
+    border: none;
+    color: #214780;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;    
+    height: 40px;
+    margin-bottom: 3%;
+    margin-left: 5px;    
+    width: 40%;
+}
+
+#btn_wpp {
+    height: 45px;
+    margin-top: 5px;
+    text-align: left;
+    padding-top: 4%;
+    width: 50%;
+}
+
+#img_logo_wpp {
+    margin-top: -17px;
+    margin-left: -14px;
+}
+
+.terminos {
+    color: whitesmoke;
+    font-size: 0.62em;
+    margin: 0 auto;
+    margin-top: 10%;
+}
+
+.terminos > a {
+    color: whitesmoke;
+}
+
+footer {
+    background-color: #0092bc;
+    color: whitesmoke;
+    font-size: 0.75em;
+    font-family: Tahoma;
+    height: 6vh;
+    text-align: center;
+    bottom: 0px;
+}
+
+#footer-text {
+    padding-top: 10px;
+}
+
+#txt_num_errado {
+    margin-left: 5px;
+    display: contents;
+    text-align: right;
+    color: rgb(243, 176, 176);
+}
+
+#txt_num_cel{
+    margin-left: 12%;
+    width: 79%;
+}
+
+@media screen and (max-width: 1000px) {
+    body {
+        background: black;
+    }
+
+    .right p {
+        font-size: 1em;
+        margin: 0 12%;
+        text-align: center;
+    }
+    
+    .right label {
+        font-size: 0.6em;
+        margin: 5% 12% 12% 12%;
+        text-align: center;
+    }
+
+    .botones {
+        margin-left: 11%;
+        margin-top: 4%;
+        text-align: center;
+    }
+    
+    .btns {
+        border-radius: 7px;
+        border: none;
+        color: #214780;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;    
+        height: 40px;
+        margin-bottom: 3%;
+        margin-left: 5px;    
+        width: 40%;
+        font-size: 10px;
+    }
+    
+    #btn_wpp {
+        font-size: 10px;
+        height: 45px;
+        margin-top: 5px;
+        text-align: left;
+        padding-top: 4%;
+        width: 50%;
+    }
+    
+    #img_logo_wpp {
+        margin-top: -17px;
+        margin-left: -14px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    body {
+        background: blue;
+    }
+
+    .container {
+        display: inline-block;
+        margin: 0 auto;
+        max-width: 100%;
+        width: 100%;
+        height: auto;
+    }
+    
+    .left {
+        width: 100%;
+        box-sizing: border-box;
+    }
+    
+    .right {
+        background-color: #1d61a8;
+        box-sizing: border-box;
+        color: whitesmoke;
+        display: flex;
+        flex-direction: column;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;    
+        /*height: 91.2vh;*/
+        height: auto;
+        padding-top: 20px;
+        justify-content: center; 
+        width: 100%;
+    }
+
+    .right p {
+        font-size: 1em;
+        margin: 0 12%;
+        text-align: center;
+    }
+    
+    .right label {
+        font-size: 0.6em;
+        margin: 2% 12% 12% 12%;
+        text-align: center;
+    }
+
+    .terminos {
+        color: whitesmoke;
+        font-size: 0.42em;
+        margin: 0 auto;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    
+    .terminos > a {
+        color: whitesmoke;
+    }
+
+    footer {
+        background-color: #0092bc;
+        color: whitesmoke;
+        font-size: 0.55em;
+        font-family: Tahoma;
+        height: 5vh;
+        text-align: center;
+        bottom: 0px;
+    }
+}
